@@ -1,0 +1,15 @@
+{
+    "name": "Media Library",
+    "description": "Media Library for displaying and viewing audio and video files",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Max Schafgans"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

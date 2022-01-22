@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>medialibrary</id>
+    <name>Media Library</name>
+    <summary>Media Library for displaying and viewing audio and video files</summary>
+    <description><![CDATA[Media Library for displaying and viewing audio and video files]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="max.schafgans@lightsignalmedia.group" homepage="https://github.com/lightsignalmediagroup/NextcloudMediaLibrary">Max Schafgans</author>
+    <namespace>MediaLibrary</namespace>
+    <category>multimedia</category>
+    <bugs>https://github.com/lightsignalmediagroup/NextcloudMediaLibrary/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Media Library</name>
+            <route>medialibrary.page.index</route>
+        </navigation>
+    </navigations>
+</info>
